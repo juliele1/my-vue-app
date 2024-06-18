@@ -1,4 +1,6 @@
 import './App.css'
+// import image ./assets/screen.png
+import Image from './assets/screen.png'
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           There is a huge disparity between the navigo card, the median and average are very different.
           We have built a model to predict the number of people, you can see the results above.
         </p>
+        <img src={Image} alt="" style={{ width: '50%', height: '50%' }} />
       </div>
       <div>
         <h2 style={{ fontStyle: 'italic' }}>2. Client Satisfaction depending on many aspects</h2>
